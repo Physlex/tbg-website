@@ -1,10 +1,8 @@
-import { useState } from 'react'
+// import { useState } from 'react'
 import tbgLogo from '/BracersGuildLogo.svg'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
       <div>
@@ -12,11 +10,8 @@ function App() {
           <img src={tbgLogo} className="logo" alt="TBG Logo" />
         </a>
       </div>
-      <h1>Vite + React</h1>
+      <h1>The Bracers Guild</h1>
       <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
         <p>
           Coming Soon: Our website!
         </p>
